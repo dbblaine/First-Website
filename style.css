@@ -1,0 +1,130 @@
+/*main header/title for each page*/
+.head1{
+	text-align:center;
+	border: single;
+	color: black;
+	background: transparent;
+	padding: 40px;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Rockwell, fantasy;
+	border-color: lightblue;
+	
+}
+
+/*body section styling*/
+body{
+	background-color: transparent;
+	background-position: center;
+	font-family: Rockwell;
+	font: black;
+}
+
+/*navigation bar*/
+nav ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: blue;
+	text-align: center;
+	align-content: center;
+	border-radius: 10px 10px 10px 10px;
+	font-family: Rockwell;
+}
+
+/*navigation bar text alignment type*/
+nav li {
+	float: center;
+	display: inline-block;
+}
+
+/*additional navigation styling*/
+nav li a {
+  	display: inline-block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	float: center;
+}
+
+nav li a:hover {
+  background-color: darkblue;
+}
+/*end of navigation bar*/
+
+/*header styling*/
+h2, h3, h4{
+	color: black;
+}
+
+/*text styling*/
+p{
+	color: black;
+	border: solid grey;
+	text-align: left;
+	border-radius: 10px 10px 10px 10px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+}
+/*paragraph text color*/
+p a {
+    color:black;
+}
+
+/*goals - homepage styling*/
+.goals {
+	position: left;
+	border: solid grey;
+	border-radius: 10px 10px 10px 10px;
+
+}
+
+
+/*Style for address*/
+address{
+	text-align:center;
+	position: relative;
+	font-size: 10px;
+	right: 200px;
+}
+
+/*text color*/
+li a{
+	color: black;
+}
+
+/*rounded corners for images*/
+.image {
+  
+    border-radius: 10px 10px 10px 10px;
+}
+/*styling for the footer*/
+footer {
+    background-color: blue;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 0.5%;
+}
+
+.footer{
+    color:white;
+}
+
+/*eliminates grey border surrounding other p elements*/
+.footertxt {
+    color:white;
+    border: none;
+}
+
+/*line break styling*/
+hr {
+    background-color: blue;
+    height: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+}
